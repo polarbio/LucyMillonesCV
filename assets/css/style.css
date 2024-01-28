@@ -70,17 +70,17 @@
   --bittersweet-shimmer: hsl(0, 43%, 51%);
 	
   /*new palette*/
-  --dark-gray: hsl(44, 7%, 61%); /*#a29e93*/
-  --mid-gray: hsl(55, 20%, 65%); /*#b8b594*/
-  --normal-gray: hsl(0, 0%, 80%); /*#cccccc*/
-  --yellow-gray: hsl(53, 47%, 60%); /*#c9be6b*/
-  --little-gray: hsl(0, 0%, 88%); /*#e1e1e1*/
-  --little-yellow-gray: hsl(55, 38%, 77%); /*#dbd7ae*/
-  --yellow-1: hsl(56, 82%, 72%); /*#f2eb7f*/
-  --yellow-2: hsl(56, 88%, 78%); /*#f8f195*/
-  --dark-yellow-1: hsl(57, 74%, 64%); /*#e7e05e*/
-  --dark-yellow-2: hsl(55, 80%, 50%); /*#E6D51A*/
-  --dark-yellow-3: hsl(54, 81%, 47%); /*#d8c517*/
+  --dark-gray: hsl(44, 7%, 61%); 
+  --mid-gray: hsl(55, 20%, 65%); 
+  --normal-gray: hsl(0, 0%, 80%); 
+  --yellow-gray: hsl(53, 47%, 60%); 
+  --little-gray: hsl(0, 0%, 88%); 
+  --little-yellow-gray: hsl(55, 38%, 77%); 
+  --yellow-1: hsl(56, 82%, 72%); 
+  --yellow-2: hsl(56, 88%, 78%); 
+  --dark-yellow-1: hsl(57, 74%, 64%);
+  --dark-yellow-2: hsl(55, 80%, 50%); 
+  --dark-yellow-3: hsl(54, 81%, 47%); 
 	
 
   /**
@@ -161,7 +161,7 @@ input, textarea {
 }
 
 ::selection {
-  background: var(--orange-yellow-crayola);
+  background: var(--dark-yellow-2);
   color: var(--smoky-black);
 }
 
@@ -181,7 +181,7 @@ body { background: var(--dark-gray); }
 
 .sidebar,
 article {
-  background: var(--eerie-black-2);
+  background: var(--dark-gray);
   border: 1px solid var(--jet);
   border-radius: 20px;
   padding: 15px;
