@@ -181,7 +181,7 @@ body { background: var(--dark-gray); }
 
 .sidebar,
 article {
-  background: var(--dark-gray);
+  background: var(--mid-gray);
   border: 1px solid var(--jet);
   border-radius: 20px;
   padding: 15px;
@@ -280,7 +280,7 @@ article.active {
 }
 
 .has-scrollbar::-webkit-scrollbar-thumb {
-  background: var(--orange-yellow-crayola);
+  background: var(--dark-yellow-2);
   border-radius: 5px;
 }
 
