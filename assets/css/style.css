@@ -181,7 +181,7 @@ body { background: var(--dark-gray); }
 
 .sidebar,
 article {
-  background: var(--little-yellow-gray);
+  background: var( --little-gray);
   border: 1px solid var(--jet);
   border-radius: 20px;
   padding: 15px;
