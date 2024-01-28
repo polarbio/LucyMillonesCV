@@ -68,6 +68,20 @@
   --light-gray: hsl(0, 0%, 84%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
   --bittersweet-shimmer: hsl(0, 43%, 51%);
+	
+  /*new palette*/
+  --dark-gray: hsl(44, 7%, 61%); /*#a29e93*/
+  --mid-gray: hsl(55, 20%, 65%); /*#b8b594*/
+  --normal-gray: hsl(0, 0%, 80%); /*#cccccc*/
+  --yellow-gray: hsl(53, 47%, 60%); /*#c9be6b*/
+  --little-gray: hsl(0, 0%, 88%); /*#e1e1e1*/
+  --little-yellow-gray: hsl(55, 38%, 77%); /*#dbd7ae*/
+  --yellow-1: hsl(56, 82%, 72%); /*#f2eb7f*/
+  --yellow-2: hsl(56, 88%, 78%); /*#f8f195*/
+  --dark-yellow-1: hsl(57, 74%, 64%); /*#e7e05e*/
+  --dark-yellow-2: hsl(55, 80%, 50%); /*#E6D51A*/
+  --dark-yellow-3: hsl(54, 81%, 47%); /*#d8c517*/
+	
 
   /**
    * typography
@@ -148,7 +162,7 @@ input, textarea {
 
 ::selection {
   background: var(--orange-yellow-crayola);
-  color: var(--smoky-black);
+  color: var(--dark-gray);
 }
 
 :focus { outline-color: var(--orange-yellow-crayola); }
