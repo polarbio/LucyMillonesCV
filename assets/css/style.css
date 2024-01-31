@@ -190,7 +190,7 @@ body { background: var(--dark-gray); }
 .sidebar,
 article {
   background: var(--little-yellow-gray);
-  border: 1px solid var(--jet);
+  border: 1px solid var(--normal-gray);
   border-radius: 20px;
   padding: 15px;
   box-shadow: var(--shadow-1);
@@ -368,7 +368,7 @@ main {
 
 .info-content .title {
   color: var(--onyx);
-  background: var(--dark-yellow-1);
+  background: var(--mid-gray);
   font-size: var(--fs-8);
   font-weight: var(--fw-300);
   width: max-content;
@@ -557,7 +557,7 @@ main {
   content: "";
   position: absolute;
   inset: 1px;
-  background: var(--bg-gradient-jet);
+  background: var(--border-gradient-gray);
   border-radius: inherit;
   z-index: -1;
 }
@@ -571,7 +571,7 @@ main {
 .service-item-title { margin-bottom: 7px; }
 
 .service-item-text {
-  color: var(--light-gray);
+  color: var(--dark-gray);
   font-size: var(--fs-6);
   font-weight: var(--fw-3);
   line-height: 1.6;
@@ -618,7 +618,7 @@ main {
 .testimonials-item-title { margin-bottom: 7px; }
 
 .testimonials-text {
-  color: var(--light-gray);
+  color: var(--dark-gray);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
   line-height: 1.6;
@@ -678,11 +678,11 @@ main {
 }
 
 .testimonials-modal {
-  background: var(--eerie-black-2);
+  background: var(--mid-gray);
   position: relative;
   padding: 15px;
   margin: 15px 12px;
-  border: 1px solid var(--jet);
+  border: 1px solid var(--little-gray);
   border-radius: 14px;
   box-shadow: var(--shadow-5);
   transform: scale(1.2);
@@ -731,13 +731,13 @@ main {
 
 .modal-content time {
   font-size: var(--fs-6);
-  color: var(--light-gray-70);
+  color: var(--dark-gray);
   font-weight: var(--fw-300);
   margin-bottom: 10px;
 }
 
 .modal-content p {
-  color: var(--light-gray);
+  color: var(--dark-gray);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
   line-height: 1.6;
