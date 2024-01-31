@@ -129,6 +129,7 @@
 
 
 
+
 /*-----------------------------------*\
   #RESET
 \*-----------------------------------*/
@@ -161,15 +162,15 @@ input, textarea {
 }
 
 ::selection {
-  background: var(--dark-yellow-2);
+  background: var(--orange-yellow-crayola);
   color: var(--smoky-black);
 }
 
-:focus { outline-color: var(--dark-yellow-2); }
+:focus { outline-color: var(--orange-yellow-crayola); }
 
 html { font-family: var(--ff-poppins); }
 
-body { background: var(--dark-gray); }
+body { background: var(--smoky-black); }
 
 
 
@@ -181,8 +182,8 @@ body { background: var(--dark-gray); }
 
 .sidebar,
 article {
-  background: var(--little-yellow-gray);
-  border: 1px solid var(--normal-gray);
+  background: var(--eerie-black-2);
+  border: 1px solid var(--jet);
   border-radius: 20px;
   padding: 15px;
   box-shadow: var(--shadow-1);
@@ -192,7 +193,7 @@ article {
 .separator {
   width: 100%;
   height: 1px;
-  background: var(--yellow-1);
+  background: var(--jet);
   margin: 16px 0;
 }
 
@@ -206,7 +207,7 @@ article {
   justify-content: center;
   align-items: center;
   font-size: 16px;
-  color: var(--yellow-1);
+  color: var(--orange-yellow-crayola);
   box-shadow: var(--shadow-1);
   z-index: 1;
 }
@@ -238,7 +239,7 @@ article.active {
 .h3,
 .h4,
 .h5 {
-  color: var(--onyx);
+  color: var(--white-2);
   text-transform: capitalize;
 }
 
@@ -280,7 +281,7 @@ article.active {
 }
 
 .has-scrollbar::-webkit-scrollbar-thumb {
-  background: var(--dark-yellow-2);
+  background: var(--orange-yellow-crayola);
   border-radius: 5px;
 }
 
@@ -568,7 +569,6 @@ main {
   font-weight: var(--fw-3);
   line-height: 1.6;
 }
-
 
 
 /**
