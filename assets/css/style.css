@@ -48,6 +48,13 @@
     hsl(0, 0%, 25%) 0%, 
     hsla(0, 0%, 25%, 0) 50%
   );
+
+  --border-gradient-gray: linear-gradient(
+    to bottom right, 
+    hsl(44, 7%, 61%) 0%, 
+    hsl(55, 20%, 65%) 50%
+  );
+
   --text-gradient-yellow: linear-gradient(
     to right, 
     hsl(45, 100%, 72%), 
@@ -513,7 +520,7 @@ main {
 .about .article-title { margin-bottom: 15px; }
 
 .about-text {
-  color: var(--light-gray);
+  color: var(--smoky-black);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
   line-height: 1.6;
@@ -539,7 +546,7 @@ main {
 
 .service-item {
   position: relative;
-  background: var(--border-gradient-onyx);
+  background: var(--border-gradient-gray);
   padding: 20px;
   border-radius: 14px;
   box-shadow: var(--shadow-2);
