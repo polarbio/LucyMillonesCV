@@ -351,7 +351,7 @@ main {
 }
 
 .info-content .name {
-  color: var(--onyx);
+  color: var(--white-2);
   font-size: var(--fs-3);
   font-weight: var(--fw-500);
   letter-spacing: -0.25px;
@@ -359,8 +359,8 @@ main {
 }
 
 .info-content .title {
-  color: var(--onyx);
-  background: var(--dark-yellow-3);
+  color: var(--white-1);
+  background: var(--onyx);
   font-size: var(--fs-8);
   font-weight: var(--fw-300);
   width: max-content;
@@ -430,14 +430,14 @@ main {
 }
 
 .contact-title {
-  color: var(--dark-gray);
+  color: var(--light-gray-70);
   font-size: var(--fs-8);
   text-transform: uppercase;
   margin-bottom: 2px;
 }
 
 .contact-info :is(.contact-link, time, address) {
-  color: var(--onyx);
+  color: var(--white-2);
   font-size: var(--fs-7);
 }
 
@@ -453,12 +453,12 @@ main {
 }
 
 .social-item .social-link {
-  color: var(--dark-gray);
+  color: var(--light-gray-70);
   font-size: 18px;
 }
 
 
-.social-item .social-link:hover { color: var(--dark-gray); }
+.social-item .social-link:hover { color: var(--light-gray); }
 
 
 
@@ -499,7 +499,7 @@ main {
 .navbar-link:hover,
 .navbar-link:focus { color: var(--light-gray-70); }
 
-.navbar-link.active { color: var(--dark-yellow-3); }
+.navbar-link.active { color: var(--orange-yellow-crayola); }
 
 
 
@@ -512,7 +512,7 @@ main {
 .about .article-title { margin-bottom: 15px; }
 
 .about-text {
-  color: var(--dark-gray);
+  color: var(--light-gray);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
   line-height: 1.6;
@@ -538,7 +538,7 @@ main {
 
 .service-item {
   position: relative;
-  background: var(--mid-gray);
+  background: var(--border-gradient-onyx);
   padding: 20px;
   border-radius: 14px;
   box-shadow: var(--shadow-2);
@@ -549,7 +549,7 @@ main {
   content: "";
   position: absolute;
   inset: 1px;
-  background: var(--mid-gray);
+  background: var(--bg-gradient-jet);
   border-radius: inherit;
   z-index: -1;
 }
@@ -563,11 +563,12 @@ main {
 .service-item-title { margin-bottom: 7px; }
 
 .service-item-text {
-  color: var(--dark-gray);
+  color: var(--light-gray);
   font-size: var(--fs-6);
   font-weight: var(--fw-3);
   line-height: 1.6;
 }
+
 
 
 /**
