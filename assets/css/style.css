@@ -663,7 +663,7 @@ main {
   left: 0;
   width: 100%;
   height: 100vh;
-  background: hsl(0, 0%, 5%);
+  background: var(--border-gradient-gray);
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
@@ -731,7 +731,7 @@ main {
 
 .modal-content time {
   font-size: var(--fs-6);
-  color: var(--dark-gray);
+  color: var(--onyx);
   font-weight: var(--fw-300);
   margin-bottom: 10px;
 }
