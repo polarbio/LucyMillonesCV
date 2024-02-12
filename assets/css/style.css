@@ -665,7 +665,7 @@ main {
   height: 100vh;
   background: var(--border-gradient-gray);
   opacity: 0;
-  visibility: hidden;
+  visibility: visible;
   pointer-events: none;
   z-index: 1;
   transition: var(--transition-1);
