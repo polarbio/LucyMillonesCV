@@ -665,7 +665,7 @@ main {
   height: 100vh;
   background: var(--border-gradient-gray);
   opacity: 1;
-  visibility: visible;
+  visibility: hidden;
   pointer-events: none;
   z-index: 1;
   transition: var(--transition-1);
@@ -673,7 +673,7 @@ main {
 
 .overlay.active {
   opacity: 1;
-  visibility: hidden;
+  visibility: visible;
   pointer-events: all;
 }
 
