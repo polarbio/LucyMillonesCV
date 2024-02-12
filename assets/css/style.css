@@ -673,7 +673,7 @@ main {
 
 .overlay.active {
   opacity: 1;
-  visibility: hidden;
+  visibility: visible;
   pointer-events: all;
 }
 
