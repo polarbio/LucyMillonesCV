@@ -885,7 +885,7 @@ main {
 }
 
 .skill-progress-fill {
-  background: var(--dark-yellow-3);
+  background: var(--vegas-gold);
   height: 100%;
   border-radius: inherit;
 }
@@ -907,7 +907,7 @@ main {
 
 .filter-select {
   background: var(--eerie-black-2);
-  color: var(--light-gray);
+  color: var(--jet);
   display: flex;
   justify-content: space-between;
   align-items: center;
